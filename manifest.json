@@ -1,0 +1,58 @@
+{
+    "type": "extension",
+    "id": "com.mindscapesolutions.form-selector",
+    "version": "1.0",
+    "revision": 1,
+    "compatibility": "4.2+",
+    "title": "Form Selector",
+    "description": "A form selector to use with the Form Builder extension.",
+    "keywords": [
+        "form",
+        "selector"
+    ],
+    "author": {
+        "name": "MINDSCAPE Solutions",
+        "url": "http://mindscapesolutions.com",
+        "email": "programmers@mindscapesolutions.com"
+    },
+    "licenses": {
+        "MIT": "http://opensource.org/licenses/MIT"
+    },
+    "components": {
+        "module_groups": [
+
+        ],
+        "modules": [
+
+        ],
+        "templates": [
+
+        ],
+        "callouts": [
+
+        ],
+        "settings": [
+
+        ],
+        "feeds": [
+
+        ],
+        "field_types": [
+            {
+                "id": "com.mindscapesolutions.form-selector*form-selector",
+                "name": "Form Selector",
+                "use_cases": {
+                    "templates": "on",
+                    "modules": "on",
+                    "callouts": "on",
+                    "settings": "on"
+                },
+                "self_draw": null,
+                "extension": "com.mindscapesolutions.form-selector"
+            }
+        ],
+        "tables": [
+
+        ]
+    }
+}
